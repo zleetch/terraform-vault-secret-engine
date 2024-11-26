@@ -34,5 +34,4 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_secret_engine_path"></a> [secret\_engine\_path](#output\_secret\_engine\_path) | The path of the enabled secrets engine |
-| <a name="output_secret_engine_type"></a> [secret\_engine\_type](#output\_secret\_engine\_type) | The type of the enabled secrets engine |
 <!-- END_TF_DOCS -->
