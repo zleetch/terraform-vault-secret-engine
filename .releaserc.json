@@ -1,5 +1,5 @@
 {
-  "branches": ["main"],
+  "branches": ["main", "master"],
   "ci": false,
   "plugins": [
     [
