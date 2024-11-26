@@ -4,9 +4,6 @@
 # Terraform lockfile
 .terraform.lock.hcl
 
-# Init files
-provider.tf
-
 # .tfstate files
 *.tfstate
 *.tfstate.*
