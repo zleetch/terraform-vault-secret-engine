@@ -5,10 +5,7 @@ on:
   push:
     branches:
       - main
-      - master
     paths:
-      - "**/*.tpl"
-      - "**/*.py"
       - "**/*.tf"
       - ".github/workflows/release.yml"
 
@@ -23,14 +20,13 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-
       - name: Release
         uses: cycjimmy/semantic-release-action@v4
         with:
-          semantic_version: 23.0.2
+          semantic_version: 24.0.0
           extra_plugins: |
             @semantic-release/changelog@6.0.3
             @semantic-release/git@10.0.1
-            conventional-changelog-conventionalcommits@7.0.2
+            conventional-changelog-conventionalcommits@8.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
